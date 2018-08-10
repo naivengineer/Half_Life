@@ -14,7 +14,7 @@ class Moment(models.Model):
     moment_date = models.DateTimeField('date published')
     moment_text = models.CharField(max_length=2000)
     
-class Message(model.Model):
+class Message(models.Model):
     message_id = models.IntegerField(default=0)
     message_from = models.IntegerField(default=0)
     message_to = models.IntegerField(default=0)
